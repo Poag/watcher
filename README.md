@@ -11,6 +11,8 @@
 docker create \ 
   --name=watcher \
   -v <path to data>:/config \
+  -v <path to downloads folder>:/downloads \
+  -v <path to movies>:/movies \
   -e PGID=<gid> -e PUID=<uid>  \
   -p 9090:9090 \
   uirel/watcher
