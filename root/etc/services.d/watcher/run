@@ -1,0 +1,8 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+	s6-setuidgid abc python /watcher/watcher.py \
+	--address 0.0.0.0 \
+  --port 9090 \
+  --conf /config/config.cfg \
+  --log /config/logs/ 
