@@ -7,7 +7,7 @@ RUN \
  apt-get install -y \
 	git \
 	python \
-	wget && \
+	python-Levenshtein && \
 
 # cleanup
  apt-get clean && \
