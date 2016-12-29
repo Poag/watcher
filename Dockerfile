@@ -5,8 +5,8 @@ MAINTAINER Poag
 RUN \
  apt-get update && \
  apt-get install -y \
-	avahi-daemon \
-	dbus \
+	git \
+	python \
 	wget && \
 
 # cleanup
