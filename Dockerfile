@@ -6,7 +6,7 @@ RUN \
  apt-get update && \
  apt-get install -y \
 	git \
-	python &&
+	python && \
 
 # cleanup
  apt-get clean && \
