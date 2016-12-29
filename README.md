@@ -52,3 +52,7 @@ Access the webui at `<your-ip>:9090`, for more information check out [Watcher](h
 ## Versions
 
 + **29.12.16:** Inital Release.
+
+## Credits
++Linuxserver.io for dockerfile form, base image, readme outline
++NoSmokingBandit for Watcher itself
