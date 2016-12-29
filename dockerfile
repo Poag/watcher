@@ -21,4 +21,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 9090
-VOLUME /config /db /log
+VOLUME /watcher
