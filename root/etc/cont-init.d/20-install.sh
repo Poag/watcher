@@ -1,5 +1,8 @@
 #!/usr/bin/with-contenv bash
 
+# cleanup old installs
+rm -rf /watcher
+
 # install app 
 git clone https://github.com/nosmokingbandit/watcher.git /watcher
 
@@ -12,6 +15,9 @@ ln -s /config/watcher.sqlite /watcher/watcher.sqlite
 cp -rn /watcher/static/images /config/images
 rm -rf /watcher/static/images
 ln -s /config/images /watcher/static/images
+
+# link scripts to config
+ln -s /config/scripts/ /watcher/post\ scripts/
 
 # permissions
 chown -R abc:abc \
