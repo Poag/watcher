@@ -17,7 +17,9 @@ rm -rf /watcher/static/images
 ln -s /config/images /watcher/static/images
 
 # link scripts to config
-ln -s /config/scripts/ /watcher/post\ scripts/
+cp -rn /watcher/post\ scripts /config/scripts
+rm -rf /watcher/post\ scripts
+ln -s /config/scripts/ /watcher/post\ scripts
 
 # permissions
 chown -R abc:abc \
