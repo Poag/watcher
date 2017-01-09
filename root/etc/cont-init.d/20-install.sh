@@ -24,3 +24,6 @@ ln -s /config/scripts/ /watcher/post\ scripts
 # permissions
 chown -R abc:abc \
 	/watcher
+
+chown -R abc:abc \
+	/config
