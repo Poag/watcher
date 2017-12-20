@@ -6,4 +6,5 @@ exec \
   --port 9090 \
   --conf /config/config.cfg \
   --db /config/watcher.sqlite \
+  --plugins /config/plugins/ \
   --log /config/logs/ 
