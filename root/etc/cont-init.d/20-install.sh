@@ -21,6 +21,11 @@ cp -rn /watcher/post\ scripts /config/scripts
 rm -rf /watcher/post\ scripts
 ln -s /config/scripts/ /watcher/post\ scripts
 
+# link userdata to config
+cp -rn /watcher/userdata /config/userdata
+rm -rf /watcher/userdata
+ln -s /config/userdata/ /watcher/userdata
+
 # permissions
 chown -R abc:abc \
 	/watcher
