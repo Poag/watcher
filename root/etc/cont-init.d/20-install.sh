@@ -4,7 +4,7 @@
 rm -rf /watcher
 
 # install app 
-git clone https://github.com/nosmokingbandit/watcher3.git /watcher
+git clone https://github.com/barbequesauce/Watcher3.git /watcher
 
 # link sqlite to config
 cp -n /watcher/watcher.sqlite /config/watcher.sqlite
